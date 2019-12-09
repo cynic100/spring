@@ -22,7 +22,8 @@ public class SpringDemo1 {
 	@Test
 	
 	public void demo1() {
-		UserService userService= new UserServiceImpl();
+		UserServiceImpl userService= new UserServiceImpl();
+		userService.setName("测试1");
 		userService.save();		
 	}
 	
